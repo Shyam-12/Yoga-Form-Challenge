@@ -14,7 +14,7 @@ function Form({ onPaymentSuccess }) {
 
   const handlePayment = async () => {
     try {
-      await axios.post('http://localhost:4000/api/payment', {
+      await axios.post('https://yoga-form-challenge-server.vercel.app/', {
         name,
         dob,
         email,
