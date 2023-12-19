@@ -7,12 +7,7 @@
       }
     ],
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/api/payment", "dest": "/api/payment" },
-      { "src": "/api/submit-form", "dest": "/api/submit-form" },
-      { "src": "/api/users", "dest": "/api/users" },
-      { "src": "/api/update-batch", "dest": "/api/update-batch" },
-      { "src": "/(.*)", "dest": "/" }
+      { "src": "/api/(.*)", "dest": "/api/" }
     ]
   }
   
